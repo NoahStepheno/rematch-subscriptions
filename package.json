@@ -23,11 +23,6 @@
     "@rematch/core": ">=2",
     "redux": ">=4"
   },
-  "private": true,
-  "workspaces": [
-    "examples/subscribe-react",
-    "."
-  ],
   "husky": {
     "hooks": {
       "pre-commit": "tsdx lint"
